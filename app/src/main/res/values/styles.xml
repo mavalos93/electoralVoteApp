@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionMenuTextColor">@color/colorIcons</item>
+        <item name="android:actionMenuTextColor">@color/colorIcons</item>
+    </style>
+
+    <style name="MyCutomDialog" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/prompt_process_title</item>
+        <item name="DialogSpotColor">@color/colorPrimary</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <style name="AppTheme.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyButtonBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerNavigationStyle">
+        <item name="android:textColor">@color/colorIcons</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="MyCustomeButton">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LogisticButtonStyle">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="DialogToolbarStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

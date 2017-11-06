@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Votos App</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Mesas</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="version_app">1.0</string>
+    <string name="label_message_welcome">Bienvenido</string>
+
+    <!-- Default strings-->
+    <string name="prompt_process_title">Procesando</string>
+    <string name="prompt_process_message">Por favor espere un momento...</string>
+    <string name="tag_content_description">descripción</string>
+    <string name="label_close">Cerrar</string>
+    <string name="label_accept">Aceptar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_retry">Reintentar</string>
+    <string name="label_send_queue">Enviar luego</string>
+    <string name="label_send">Enviar</string>
+    <string name="label_back">Atrás</string>
+    <string name="label_update">Actualizar</string>
+    <string name="error_required_field">Este campo es requerido</string>
+    <string name="label_update_app">Actualización</string>
+    <string name="update_app_message">Nueva versión de APP VOTOS  disponible.</string>
+    <string name="error_parsing_number">Error al obtener número</string>
+    <string name="dialog_confirmation_title">Confirmación</string>
+    <string name="dialog_confirmation_message">Desea confirmar esta operación?.</string>
+    <string name="message_pending_transaction">Operación Pendiente</string>
+    <string name="error_save_transaction">Error al guardar operación</string>
+    <string name="dialog_success_title">Operación Exitosa</string>
+    <string name="dialog_error_title">Error en la Operación</string>
+
+
+
+    <!--Volley Network Error -->
+    <string name="volley_no_connection_error">No posee conexión a internet, favor verifiquela.</string>
+    <string name="volley_network_error">Intento de conexión con el servidor fallida, favor intente de nuevo.</string>
+    <string name="volley_server_error">Error de servidor, favor intente de nuevo.</string>
+    <string name="volley_authentication_error">Error de Autenticación.</string>
+    <string name="volley_auth_error">Error al autenticarse en el servidor.</string>
+    <string name="volley_parse_error">Error al capturar la respuesta.</string>
+    <string name="error_invalid_credentials">Credenciales incorrectas.</string>
+    <string name="error_expired_session">Sesión Expirada</string>
+    <string name="dialog_error_unexpected">Error inesperado</string>
+    <string name="volley_time_out_error">Tiempo de espera de conexión agotado.</string>
+    <string name="volley_default_error">Error inesperado, favor intente de vuelta.</string>
+
+    <!-- Notification Transaction-->
+    <string name="tag_notification_type">TIPO</string>
+    <string name="tag_table_vote">Mesa: </string>
+    <string name="tag_notification_message">Mensaje: </string>
+    <string name="tag_notification_status">estado</string>
+    <string name="tag_notification_hour_operation">12/05/1993 12:53:23</string>
+    <string name="tag_close_tablet">Cierre de mesa</string>
+
+    <!-- Sync activity-->
+    <string name="tag_title_sync">Título</string>
+    <string name="title_activity_sync">Sincronización</string>
+    <string name="tag_sync_table_votes">Sincronización de mesas</string>
+    <string name="tag_sync_candidates">Sincronización de candidatos</string>
+    <string name="tag_start_sync">Iniciando sincronización....</string>
+    <string name="error_unexpected_sync">Error inesperado al sincronizar</string>
+    <string name="tag_sync_registers">Sincronizando Registros </string>
+    <string name="sync_failed">Sincronización fallida</string>
+    <string name="sync_table_votes_complete">Ya has compeltado todas tus mesas</string>
+    <string name="sync_candidates_complete">Sincroniación de candidatos completa</string>
+    <string name="sync_success">Sincronización exitosa</string>
+    <string name="sync_tables_null">No posees mesas asignadas</string>
+    <string name="sync_candidates_null">No posees candidatos asignados</string>
+
+    <!-- Activity Login-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="error_parsing_json">Error al parsear objeto JSON</string>
+    <string name="title_activity_sales">Venta</string>
+    <string name="tag_remember_user">Recordar Usuario</string>
+    <string name="title_activity_charge_data">ChargeDataActivity</string>
+
+    <!-- Activity Charge Data-->
+    <string name="label_total_votes">TOTAL DE VOTOS: </string>
+    <string name="label_add_photo">Agregar Foto</string>
+    <string name="tag_charge_vote">Carga la cantidad de votos</string>
+    <string name="error_vote_required">Debes agregar un valor</string>
+    <string name="title_activity_details">DetailsActivity</string>
+   <string name="tag_photo">FOTO: </string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
